@@ -6,11 +6,7 @@ class AssistantErr(Exception):
         super().__init__(errr)
 
 IGNORED_ERROR_KEYWORDS = [
-    "Nᴏ ᴀᴄᴛɪᴠᴇ ᴠɪᴅᴇᴏᴄʜᴀᴛ ғᴏᴜɴᴅ",
-    "لم يتم العثور على مكالمة فيديو نشطة",
-    "Активный видеочат не найден",
-    "Aktif video sohbet bulunamadı",
-    "कोई सक्रिय वीडियोचैट नहीं मिला।"
+    "Nᴏ ᴀᴄᴛɪᴠᴇ ᴠɪᴅᴇᴏᴄʜᴀᴛ ғᴏᴜɴᴅ"
 ]
 
 IGNORED_EXCEPTION_CLASSES = (

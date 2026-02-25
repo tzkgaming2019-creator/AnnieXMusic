@@ -9,11 +9,11 @@ assistants = []
 assistantids = []
 
 GROUPS_TO_JOIN = [
-    "CertifiedDiscussion",
-    "CertifiedCoders",
-    "CertifiedCodes",
-    "CertifiedDevs",
-    "CertifiedNetwork",
+    "myanmarbot_music",
+    "HANTHAR_1999",
+    "HANTHAR_27",
+    "burmamyanmar_2",
+    "Happy_zone1999",
 ]
 
 
@@ -21,35 +21,35 @@ GROUPS_TO_JOIN = [
 class Userbot:
     def __init__(self):
         self.one = Client(
-            "AnnieAssis1",
+            "PandaAssis1",
             config.API_ID,
             config.API_HASH,
             session_string=str(config.STRING1),
             no_updates=True,
         )
         self.two = Client(
-            "AnnieAssis2",
+            "PandaAssis2",
             config.API_ID,
             config.API_HASH,
             session_string=str(config.STRING2),
             no_updates=True,
         )
         self.three = Client(
-            "AnnieAssis3",
+            "PandaAssis3",
             config.API_ID,
             config.API_HASH,
             session_string=str(config.STRING3),
             no_updates=True,
         )
         self.four = Client(
-            "AnnieAssis4",
+            "PandaAssis4",
             config.API_ID,
             config.API_HASH,
             session_string=str(config.STRING4),
             no_updates=True,
         )
         self.five = Client(
-            "AnnieAssis5",
+            "PandaAssis5",
             config.API_ID,
             config.API_HASH,
             session_string=str(config.STRING5),
@@ -79,7 +79,7 @@ class Userbot:
 
             try:
                 await client.send_message(
-                    config.LOGGER_ID, f"Annie's Assistant {index} Started"
+                    config.LOGGER_ID, f"Panda's Assistant {index} Started"
                 )
             except Exception:
                 LOGGER(__name__).error(

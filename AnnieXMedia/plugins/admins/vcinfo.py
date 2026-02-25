@@ -19,7 +19,7 @@ async def vc_info(client, message: Message):
         if not participants:
             return await message.reply_text("❌ No users found in the voice chat.")
 
-        msg_lines = ["🎧 <b>VC Members Info:</b>\n"]
+        msg_lines = ["🤍 <b>VC Members Info:</b>\n"]
         for p in participants:
             try:
                 user = await app.get_users(p.user_id)

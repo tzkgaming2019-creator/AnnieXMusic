@@ -32,7 +32,7 @@ async def password(bot, message):
     )
 
     buttons = InlineKeyboardMarkup([
-        [InlineKeyboardButton("𝗔𝗗𝗗 𝗠𝗘", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")]
+        [InlineKeyboardButton("🤍𝗔𝗗𝗗 𝗠𝗘🤍", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")]
     ])
 
     await processing.edit_text(reply_text, reply_markup=buttons, parse_mode=enums.ParseMode.HTML)
