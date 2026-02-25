@@ -48,7 +48,7 @@ async def cute(_, message):
     mention = f"[{user.first_name}](tg://user?id={user.id})"
     percent = random.randint(1, 100)
 
-    caption = f"🍑 {mention} ɪꜱ {percent}% ᴄᴜᴛᴇ ʙᴀʙʏ 🥀"
+    caption = f"🤍 {mention} ɪꜱ {percent}% ᴄᴜᴛᴇ ʙᴀʙʏ 🥀"
 
     await app.send_document(
         chat_id=message.chat.id,

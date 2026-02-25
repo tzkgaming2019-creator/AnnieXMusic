@@ -57,7 +57,7 @@ async def list_admins(client, message: Message):
             else "<i>Hidden Owner</i>"
         )
 
-        txt += f"<b>Owner</b>\n└ {owner_line}\n\n"
+        txt += f"<b>🤍Owner</b>\n└ {owner_line}\n\n"
 
         txt += "<b>👤 Admins</b>\n"
         if not human_admins:
